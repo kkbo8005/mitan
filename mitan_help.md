@@ -76,7 +76,7 @@ java -jar mitan-1.0-jar-with-dependencies.jar
 
 # 3、致谢
 
-  作者在开发过程中使用并借鉴了很多大佬们开发的工具，在这里统一表示感谢。他们包含FindSomeThing、SuperSearchPlus (不会安全的开发)，御剑文件扫描、dirsearch、JSFinder等，感谢你们，你们太棒了。
+  作者在开发过程中使用并借鉴了很多大佬们开发的工具，在这里统一表示感谢。他们包含FindSomeThing、SuperSearchPlus (不会安全的开发)，御剑文件扫描、dirsearch、JSFinder,fofaviewer等，感谢你们，你们太棒了。
 
    同时密探工具在开发过程中，“**长风安全**”，“**湘安无事**“两个团队的师傅们提供了大量帮助，在此表示感谢。
 
