@@ -40,4 +40,4 @@ java -jar mitan-1.0-jar-with-dependencies.jar
 
 ![image-20240406180609618](Readme.assets/image-20240406180609618.png)
 
-![image-20240421225137130](Readme.assets/image-20240421225137130.png)
+![image-20240421225749754](Readme.assets/image-20240421225749754.png)
