@@ -31,7 +31,7 @@ java -jar mitan-1.0-jar-with-dependencies.jar
 
 运行成功显示以下界面：
 
-![image-20240420213919203](Readme.assets/image-20240420213919203.png)
+![image-20240424205838640](Readme.assets/image-20240424205838640.png)
 
 ​    新增资产测绘界面如下图：
 
