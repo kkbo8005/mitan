@@ -9,16 +9,14 @@
                     {"site":"钟馗之眼","url":"https://www.zoomeye.hk/"},
                     {"site":"zoomeye","url":"https://www.zoomeye.org/"},
                     {"site":"Shodan","url":"https://www.shodan.io"},
+                    {"site":"censys","url":"https://censys.com/"},
                     {"site":"微步","url":"https://x.threatbook.com/"},
                     {"site":"知道创宇","url":"https://www.seebug.org/"},
-                    {"site":"github","url":"https://github.com/"},
-                    {"site":"谷歌","url":"https://www.google.com/"},
+                    {"site":"百度","url":"hhttps://www.baidu.com/"},
+                    {"site":"谷歌","url":"hhttps://www.google.com/"},
                     {"site":"bing","url":"https://www.bing.com/"},
                     {"site":"搜狗","url":"https://www.sogou.com/"},
                     {"site":"企查查","url":"https://www.qcc.com/"},
-                    {"site":"Censys搜索引擎","url":"https://censys.com/"},
-                    {"site":"谛听-工控安全","url":"https://www.ditecting.com/"},
-                    {"site":"源代码搜索","url":"https://searchcode.com/"},
                     {"site":"天眼查","url":"https://www.tianyancha.com/"},
                     {"site":"企信宝","url":"https://www.qixin.com/"},
                     {"site":"爱企查","url":"https://aiqicha.baidu.com/"},
@@ -35,13 +33,34 @@
                     {"site":"cnvd","url":"https://www.cnvd.org.cn/"},
                     {"site":"暴露面管理平台","url":"https://urlscan.watcherlab.com/login"}
                 ]
+        }, {
+            "typename":"漏洞平台",
+            "list":[{"site":"cnvd","url":"https://www.cnvd.org.cn/"},
+                    {"site":"补天","url":"https://www.butian.net/"},
+                    {"site":"漏洞盒子","url":"https://www.vulbox.com/"},
+                    {"site":"漏洞银行","url":"https://www.bugbank.cn/"},
+                    {"site":"360众测","url":"https://zhongce.360.net/"},
+                    {"site":"hackerone","url":"https://www.hackerone.com/"},
+                    {"site":"雷神众测","url":"https://www.bountyteam.com/"},
+                    {"site":"字节跳动安全中心","url":"https://security.bytedance.com/"},
+                    {"site":"京东安全应急响应","url":"https://security.jd.com/"},
+                    {"site":"阿里安全应急响应","url":"https://security.alibaba.com/"},
+                    {"site":"百度应急响应","url":"https://bsrc.baidu.com/"},
+                    {"site":"腾讯应急响应","url":"https://security.tencent.com/"},
+                    {"site":"蚂蚁应急响应","url":"https://security.alipay.com/"},
+                    {"site":"顺丰应急响应","url":"https://sfsrc.sf-express.com/"},
+                    {"site":"携程应急响应","url":"https://sec.ctrip.com/"},
+                    {"site":"小米应急响应","url":"https://sec.xiaomi.com/"},
+                    {"site":"哔哩哔哩应急响应","url":"https://security.bilibili.com/"},
+                    {"site":"爱奇艺应急响应","url":"https://security.iqiyi.com/"},
+                    {"site":"贝壳应急响应","url":"https://security.ke.com/"},
+                    {"site":"EDUSRC","url":"https://src.sjtu.edu.cn/"}
+
+            ]
         },
         {
-            "typename":"安全网站",
-            "list":[{"site":"补天","url":"https://www.butian.net/"},
-            {"site":"漏洞盒子","url":"https://www.vulbox.com/"},
-            {"site":"EDUSRC","url":"https://src.sjtu.edu.cn/"},
-            {"site":"hackerone","url":"https://www.hackerone.com/"}
+            "typename":"安全资讯",
+            "list":[
             {"site":"先知社区","url":"https://xz.aliyun.com/"},
             {"site":"FREEBUF","url":"https://www.freebuf.com/"},
             {"site":"奇安信安全攻防","url":"https://forum.butian.net/"},
@@ -70,7 +89,8 @@
             {"site":"棱角社区","url":" https://forum.ywhack.com/index.php"},
             {"site":"apifox","url":"https://apifox.com/"},
             {"site":"稀土掘金","url":"https://juejin.cn/"},
-            {"site":"开源中国","url":"https://www.oschina.net/"}
+            {"site":"开源中国","url":"https://www.oschina.net/"},
+            {"site":"secwiki","url":"https://www.sec-wiki.com/index.php"}
            ]
         },{
             "typename":"常用工具",
