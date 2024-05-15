@@ -1,0 +1,1 @@
+java  -jar mitan-jar-with-dependencies.jar 

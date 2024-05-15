@@ -1,9 +1,39 @@
+finger:
+  threadsleep: '9'
+  threadcount: '24'
+proxy:
+  password: ''
+  port: '7890'
+  proxytype: HTTP
+  ip: 127.0.0.1
+  isrun: '0'
+  username: ''
+dirsearch:
+  filterlength: '0.0'
+  threadsleep: '9'
+  bypass403: 'false'
+  ScanStatus: '[403, 200, 301]'
+  isfilterkeyword: 'true'
+  threadcount: '24'
+  isfilterlength: 'true'
+  domainbakfile: 'true'
+  filterkeyword: 404,Not Found,页面不存在,拦截
 fofa:
-  url: "https://fofa.info"
-  email: ""
-  key: ""
+  url: https://fofa.info
+  email: '1212'
+  key: '1212'
 quake:
-  key: ""
+  key: '1212'
 hunter:
-  key: ""
   index: '0'
+  key: '1212'
+nssm:
+  NssmType: FOFA
+  loadnearyear: 'false'
+  defaultLoadPage: '1.0'
+SensitiveInfo:
+  threadsleep: '9'
+  isfilter: 'true'
+  mothod: 'false'
+  threadcount: '24'
+  isautoScan: 'false'
