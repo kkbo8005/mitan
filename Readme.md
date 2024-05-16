@@ -62,22 +62,45 @@ chmod +x start.sh
 
 ### 5.常见问题
 
-​    （1）运行时错误提示: 缺少 JavaFX 运行时组件, 需要使用该组件来。建议使用如下语句 **安装目录路径\javafx-sdk-22.0.1\lib** 替换为本地的javafx-sdk的路径
+#### （1）运行时错误提示: 缺少 JavaFX 运行时组件的解决方法。
+
+ **JavaFX 从 Java 11 开始从 JDK中移除，JDK11以上的需要单独下载和配置javaFx。**
+
+##### 1. 下载 JavaFX SDK
+
+首先，从 [Gluon](https://gluonhq.com/products/javafx/) 网站 下载对应操作系统的 JavaFX SDK。
+
+##### 2. 解压到目录
+
+将下载的 JavaFX SDK 解压到一个目录中（例如 `C:\javafx-sdk-21`）。
+
+##### 3. 运行 JAR 文件时指定 JavaFX 模块路径
+
+在运行你的 JAR 文件时，需要指定 JavaFX 模块的路径。假设你的 JavaFX SDK 解压在 `C:\javafx-sdk-21`，你可以使用以下命令来运行你的 JAR 文件：
 
 ```
-
-java --module-path "安装目录路径\javafx-sdk-22.0.1\lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics -jar mitan-jar-with-dependencies.jar
-
-感谢 p1at0x 师傅在Issues中提出的解决方案，各位师傅可以试试。
+java --module-path "C:\javafx-sdk-21\lib" --add-modules javafx.controls,javafx.fxml -jar mitan-jar-with-dependencies.jar
 ```
 
-​     （2） 若遇到界面乱码问题，建议指定编码方式进行启动。
+在这个命令中：
+
+- `--module-path "C:\javafx-sdk-21\lib"` 指定了 JavaFX 模块的路径。
+
+- `--add-modules javafx.controls,javafx.fxml` 添加了所需的 JavaFX 模块，根据你的应用程序可能需要添加其他模块。
+
+  
+
+  **感谢 p1at0x ，s0nd9r师傅在Issues中提出的解决方案，可自行根据操作系统修改start.bat或start.sh脚本文件，解决快速启动。**
+
+  
+
+#### （2） 若遇到界面乱码问题，建议指定编码方式进行启动。
 
 ```
 java "-Dfile.encoding=UTF-8" -jar mitan-jar-with-dependencies.jar
 ```
 
- 若遇到上述两个问题，可以自行根据操作系统修改start.bat或start.sh脚本文件，解决快速启动。
+ **可自行根据操作系统修改start.bat或start.sh脚本文件，解决快速启动。**
 
 ###  6.互相交流
 
