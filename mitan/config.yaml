@@ -20,13 +20,13 @@ dirsearch:
   filterkeyword: 404,Not Found,页面不存在,拦截
 fofa:
   url: https://fofa.info
-  email: '1212'
-  key: '1212'
+  email: ''
+  key: ''
 quake:
-  key: '1212'
+  key: ''
 hunter:
   index: '0'
-  key: '1212'
+  key: ''
 nssm:
   NssmType: FOFA
   loadnearyear: 'false'
