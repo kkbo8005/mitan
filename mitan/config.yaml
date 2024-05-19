@@ -1,6 +1,6 @@
 finger:
   threadsleep: '9'
-  filterstatus: 'false'
+  filterstatus: 'true'
   threadcount: '24'
 proxy:
   password: ''
@@ -14,7 +14,7 @@ dirsearch:
   threadsleep: '9'
   bypass403: 'false'
   ScanStatus: '[403, 200, 301]'
-  isfilterkeyword: 'true'
+  isfilterkeyword: 'false'
   threadcount: '24'
   isfilterlength: 'true'
   domainbakfile: 'true'
@@ -30,7 +30,7 @@ hunter:
   key: ''
 nssm:
   NssmType: FOFA
-  loadnearyear: 'false'
+  loadnearyear: 'true'
   defaultLoadPage: '1.0'
 SensitiveInfo:
   threadsleep: '9'
@@ -38,3 +38,5 @@ SensitiveInfo:
   mothod: 'false'
   threadcount: '24'
   isautoScan: 'false'
+zoomeye:
+  key: ''
