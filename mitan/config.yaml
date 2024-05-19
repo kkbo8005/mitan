@@ -1,5 +1,6 @@
 finger:
   threadsleep: '9'
+  filterstatus: 'false'
   threadcount: '24'
 proxy:
   password: ''
