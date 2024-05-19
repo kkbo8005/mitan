@@ -12,8 +12,8 @@
                     {"site":"censys","url":"https://censys.com/"},
                     {"site":"微步","url":"https://x.threatbook.com/"},
                     {"site":"知道创宇","url":"https://www.seebug.org/"},
-                    {"site":"百度","url":"hhttps://www.baidu.com/"},
-                    {"site":"谷歌","url":"hhttps://www.google.com/"},
+                    {"site":"百度","url":"https://www.baidu.com/"},
+                    {"site":"谷歌","url":"https://www.google.com/"},
                     {"site":"bing","url":"https://www.bing.com/"},
                     {"site":"搜狗","url":"https://www.sogou.com/"},
                     {"site":"企查查","url":"https://www.qcc.com/"},
@@ -109,6 +109,25 @@
             {"site":"微步云沙箱","url":"https://s.threatbook.com/"},
             {"site":"站长工具","url":"https://tool.chinaz.com/"}
             
+            ]
+        },{
+            "typename":"github相关",
+            "list":[
+            {"site":"密探","url":"https://github.com/kkbo8005/mitan"} ,
+            {"site":"字典库1","url":"https://github.com/Stardustsky/SaiDict"},
+            {"site":"字典库2","url":"https://github.com/7hang/Fuzz_dic"},
+            {"site":"superSearchPlus","url":"https://github.com/dark-kingA/superSearchPlus"},
+            {"site":"dirsearch","url":"https://github.com/maurosoria/dirsearch"},
+            {"site":"JSFinder","url":"https://github.com/Threezh1/JSFinder"},
+            {"site":"URLFinder","url":"https://github.com/pingc0y/URLFinder"},
+            {"site":"OneForAll","url":"https://github.com/shmilylty/OneForAll"},
+            {"site":"dvwa","url":"https://github.com/digininja/DVWA"},
+            {"site":"sqli-labs","url":"https://github.com/Audi-1/sqli-labs"},
+            {"site":"nmap","url":"https://github.com/nmap/nmap"},
+            {"site":"fscan","url":"https://github.com/shadow1ng/fscan"},
+            {"site":"nuclei","url":"https://github.com/projectdiscovery/nuclei"},
+            {"site":"mdut","url":"https://github.com/SafeGroceryStore/MDUT"},
+            {"site":"EHole","url":"https://github.com/EdgeSecurityTeam/EHole"}
             ]
         }
     ]
