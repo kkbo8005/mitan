@@ -1,4 +1,4 @@
-## 密探 -- 渗透测试工具 v1.11     by: kkbo8005@gmail.com
+## 密探 -- 渗透测试工具 v1.11    by: kkbo8005@gmail.com
 
 ### 1.缘起
 
@@ -30,7 +30,7 @@
 
 ###  4.如何运行
 
- 在jdk8环境下运行以下语句运行:
+ 在jdk8环境下（在jdk8以上的高版本请参考常见问题1的处理方案）运行以下语句运行:
 
 ```
 java -jar mitan-jar-with-dependencies.jar
