@@ -14,6 +14,16 @@
 
 ​       **特别注意，护网在即，各位师傅使用本工具请从github下载，从其他渠道下载工具，若被下毒与本作者无关，也请各位师傅高抬贵手不要对工具二开、下毒，谢谢🙏🙏。**
 
+​    **==抽空录制了视频，不太会用的师傅可以先了解了解：==**
+
+【密探渗透测试工具简要介绍】 https://www.bilibili.com/video/BV161TdeNEnk/?share_source=copy_web&vd_source=54cb0568fcea2b24aca7fc151005d590
+
+【如何启动密探渗透测试工具】 https://www.bilibili.com/video/BV1qSTdeaEHK/?share_source=copy_web&vd_source=54cb0568fcea2b24aca7fc151005d590
+
+【密探渗透测试工具单一靶标场景使用说明】 https://www.bilibili.com/video/BV1BUTdeAEsb/?share_source=copy_web&vd_source=54cb0568fcea2b24aca7fc151005d590
+
+【密探渗透测试工具各独立功能模块使用说明】 https://www.bilibili.com/video/BV1hAToeXErf/?share_source=copy_web&vd_source=54cb0568fcea2b24aca7fc151005d590
+
 ### 3.更新日志
 
 | 2024.5.31 | 资产测绘增加了对ZoomEye的支持，优化了导出资产的报错的bug, 信息查询增加了单位名称/IP的查询，在备案，IP反查等列表增加了“信息查询”等右键菜单。子域名增加rapiddns,alienvault聚合查询结果。修复了资产测绘联动到指纹识别，敏感信息，文件扫描等没带端口的bug。优化显示界面自适应问题。搜索语法增加一些网上搜集的搜索语法。 |
