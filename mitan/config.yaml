@@ -20,12 +20,30 @@ dirsearch:
   domainbakfile: 'true'
   filterkeyword: 404,Not Found,页面不存在,拦截
 fofa:
+  pagesize: '50'
   url: https://fofa.info
   email: ''
   key: ''
+nssmproxy:
+  password: ''
+  port: '7890'
+  proxytype: HTTP
+  ip: 127.0.0.1
+  isrun: '0'
+  username: ''
 quake:
+  pagesize: '0'
   key: ''
+subdomain:
+  threadsleep: '9'
+  depth: '1'
+  scanport: 80,43
+  dnshost: '0'
+  threadcount: '24'
+  filterip: 127.0.0.1
+  isscanport: 'true'
 hunter:
+  pagesize: '0'
   index: '0'
   key: ''
 nssm:
