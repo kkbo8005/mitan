@@ -8,7 +8,11 @@
 
   密探-主要包含资产信息收集，IP端口查询，备案信息查询，子域名爆破（支持多级递归），搜索引擎语法自动生成（**FOFA,Hunter,Quake,ZoomEye,google,github**），资产测绘（**FOFA，hunter，Quake，ZoomEye , 零零信安** 的查询及结果导出），指纹识别、敏感信息（**暴露接口并可以自动探测未授权**），文件扫描（包含**目录，备份文件，spring信息泄漏，自定义字典**等）、渗透技能路线备忘录，常用网络安全网站导航等功能。
 
-​      **抽空录制了视频，不太会用的师傅可以先了解了解：** **【密探B站视频】** https://space.bilibili.com/552795114
+  
+
+​      **github下载地址：https://github.com/kkbo8005/mitan/releases**   
+
+​     **不太会用的师傅可以先了解了解操作 【密探B站视频】** https://space.bilibili.com/552795114 
 
 
 
