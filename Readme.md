@@ -10,7 +10,7 @@
 
   
 
-​      **github下载地址：https://github.com/kkbo8005/mitan/releases**   
+​      **github 下载地址：https://github.com/kkbo8005/mitan/releases**   
 
 ​     **不太会用的师傅可以先了解了解操作 【密探B站视频】** https://space.bilibili.com/552795114 
 
