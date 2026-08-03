@@ -1,31 +1,222 @@
-## 密探 -- 渗透测试工具 v1.2.3 版
+### 密探渗透测试工具 v2.0
 
-### 1.缘起
+### 1.工具简介
 
-  对于学习网络安全的小白来说，在渗透实战过程中容易没有方向，密探借鉴FindSomeThing、SuperSearchPlus ，御剑文件扫描、dirsearch、JSFinder、fofaviewer等工具，开发这款“密探”渗透测试工具，希望能够为大家提供帮助，并向上述工具的开发者致敬！！
+​       密探渗透测试工具v1.0版学习借鉴很多优秀的工具，于2024年4月发布javaFx版本，而后经历19次更新，70余师傅的支持帮助，修复了很多bug，感谢所有师傅的贡献！同时建立了3个微信交流群，1300多师傅加入，共建了密探工具技术交流社群！作者在后续的开发中，想弥补一下V1.0版本不足，在功能、界面UI、用户体验的方面上一个台阶，2025年开始筹划基于Rust语言的密探v2.0版本开发。
 
-###  2.功能介绍
+​        密探渗透测试工具v2.0版是一款项目级一站式网络安全检测与运维工具，集成资产测绘、情报侦察、漏洞检测、云安全、AI 自动化渗透、MCP工具等 50 余项全链路能力，帮助安全团队快速摸清资产、排查风险、修补短板，高效完成常态化安全运维与专项检测工作。
 
-  密探-主要包含资产信息收集，IP端口查询，备案信息查询，子域名爆破（支持多级递归），搜索引擎语法自动生成（**FOFA,Hunter,Quake,ZoomEye,google,github**），资产测绘（**FOFA，hunter，Quake，ZoomEye , 零零信安** 的查询及结果导出），指纹识别、敏感信息（**暴露接口并可以自动探测未授权**），文件扫描（包含**目录，备份文件，spring信息泄漏，自定义字典**等）、端口扫描、弱口令爆破、sessionkey加解密、jwt密钥爆破、代理池、swagger未授权探测、渗透技能路线备忘录，常用网络安全网站导航等功能。
+### **2. 功能导航**
+
+**主体查询**：主体查询，批量主体，ICP 查询，IP 归属，搜索语法，敏感信息
+**空间测绘**：聚合测绘，FO FA，Hunter，Quake,Zoomeye,DayDayMap,censys,shodan, 零零信安，关键词对照表，图标 hash 计算
+**Fuzz 爆破**：指纹识别，JSFinder，目录扫描，子域名爆破，端口扫描，弱口令，POC 扫描，POC 生成，JWT 爆破，Swagger
+**工  具  箱**：Sessionkey,heapdump, 微信小程序，密码本，随机用户，社工字典，杀软识别，编码解码，数据处理，反弹 Shell
+**云  安  全**：OSS 管理，云主机，微信利用，钉钉利用，飞书利用，地图密钥，百度人脸
+**武  器  库**：武器库
+**代  理  池**：代理池
+**AI   渗  透**：MCP，技能，AI 助手，自动化渗透，代码审计
+**网站导航**：网站导航
+
+【**关于密探**】
+
+![6447e48e-5347-4208-878b-26ce25786bd9](Readme.assets/6447e48e-5347-4208-878b-26ce25786bd9.png)
+
+【**主体查询**】
+
+![dccb7eda-8160-45e8-bdec-503c90da7af2](Readme.assets/dccb7eda-8160-45e8-bdec-503c90da7af2.png)
+
+【**空间测绘**】
+
+![e67060ad-9a95-426c-a911-f3af1b70437d](Readme.assets/e67060ad-9a95-426c-a911-f3af1b70437d.png)
+
+【**Fuzz爆破**】
+
+![cd059e2c-ffdb-42fc-a61f-4d302ec2fb35](Readme.assets/cd059e2c-ffdb-42fc-a61f-4d302ec2fb35.png)
+
+【**工具箱**】
+
+![2efe2839-91d5-4f54-af5e-bdc29133834d](Readme.assets/2efe2839-91d5-4f54-af5e-bdc29133834d.png)
+
+【**云安全**】
+
+![ce4b669f-f494-4246-a96f-10a914f5abb4](Readme.assets/ce4b669f-f494-4246-a96f-10a914f5abb4.png)
+
+【**武器库**】
+
+![cd45ad1b-6234-4dcb-a2dc-680dce8004ac](Readme.assets/cd45ad1b-6234-4dcb-a2dc-680dce8004ac.png)
+
+【**代理池**】
+
+![dd4bad79-40bd-4a8e-9858-2e31907467ac](Readme.assets/dd4bad79-40bd-4a8e-9858-2e31907467ac.png)
+
+【**AI渗透**】
+
+![b122772d-3314-4d6f-99ad-58b592f9b748](Readme.assets/b122772d-3314-4d6f-99ad-58b592f9b748.png)
+
+**【网站导航**】
+
+![f87f0215-aa81-4834-8c26-e0d390c81ecb](Readme.assets/f87f0215-aa81-4834-8c26-e0d390c81ecb.png)
+
+### **3.免责声明与使用许可**
+
+**合法使用承诺**：本工具仅供授权渗透测试和安全研究使用，用户须确保已获得目标系统的合法授权。任何未经授权的扫描和测试行为均违反相关法律法规，由用户自行承担全部法律责任。
+**数据安全责任**：用户在使用本工具过程中获取的任何数据，应妥善保管并在使用完成后及时销毁。因数据泄露、滥用或不当存储造成的一切后果，由用户自行承担。
+**工具使用风险**：渗透测试本身存在导致目标系统异常或中断的风险，用户应充分评估并在可控环境下操作。因使用本工具造成的目标系统损害、业务中断等损失，作者不承担任何责任。
+**第三方服务声明**：本工具集成的 AI 模型、网络测绘等第三方资源，其准确性和可用性由对应服务方负责。作者不对第三方服务的中断、错误或延迟作任何保证。**版本与授权变更：**作者保留随时修改软件功能、调整授权策略或终止服务的权利，无需事先通知。VIP 授权仅限激活者本人使用，转让或共享将导致授权失效。
+**禁止逆向与二次分发：**未经授权，严禁对本工具进行反编译、逆向工程、拆解或修改源代码。严禁将本工具或其激活码进行二次分发、转售或公开传播，违者将追究法律责任。
+
+### **4.特色功能**
+
+   **（1）项目管理**
+
+密探2.0 对信息收集及资产探测的过程数据进行项目级管理，好处就是可以严格区分不同项目之间的数据记录，不会产生数据混乱，第二就是便于对项目的历史记录进行回溯，便于后期续用及数据整理，随时可以从历史记录中调取。
+
+![cc50e3aa-d7ed-425f-886c-fc6b7666a15d](/Volumes/soft/网络安全/github_mitan/Readme.assets/cc50e3aa-d7ed-425f-886c-fc6b7666a15d.png)
+
+   **（2）聚合测绘**
+
+密探内置测绘语法转换算法，能够实现常见的搜素语法自动转换适配多个测绘引擎，并实现多个测绘引擎的测绘数据查询，避免多个测绘引擎的语法差异导致的人为转换的错误，极大的提高测绘效率。
+
+![0c709faa-5f6b-4675-a39a-a9682f48d099](/Volumes/soft/网络安全/github_mitan/Readme.assets/0c709faa-5f6b-4675-a39a-a9682f48d099.png)
+
+​    **（3） 断点续扫**
+
+密探2.0实现指纹识别，jsfinder,目录扫描，子域名，端口扫描，弱口令，poc等耗时比较长的扫描功能增加了断点续扫的功能，可以随时从上次结束的任务处继续完成后续扫描，解决每次扫描都要从新开扫的麻烦。
+
+![eb23d945-c576-4194-962c-7767ade4ab62](/Volumes/soft/网络安全/github_mitan/Readme.assets/eb23d945-c576-4194-962c-7767ade4ab62.png)
+
+​    **（4） heapdump分析**
+针对java 的heapdump转储文件进行解析，分析数据库连接信息，sql，IP，jwt token等敏感信息
+
+![944221dc-5d41-4929-9392-76693b7357d9](/Volumes/soft/网络安全/github_mitan/Readme.assets/944221dc-5d41-4929-9392-76693b7357d9.png)
+
+​    **（5） 小程序反编译-》API扫描一把梭**
+​    支持多版本的微信小程序解包，并对代码里面的api接口，URL，aksk等敏感信息进行提取。尤其API接口可以通过扫描按钮一键发起未授权检测，可以根据数据包状态及大小来判断接口是否存在未授权风险。
+
+![7116c3d0-8c17-4d7c-986b-1f74d37ecd40](/Volumes/soft/网络安全/github_mitan/Readme.assets/7116c3d0-8c17-4d7c-986b-1f74d37ecd40.png)
+
+![df66b621-5b27-4513-b8b4-44447c9ae38f](/Volumes/soft/网络安全/github_mitan/Readme.assets/df66b621-5b27-4513-b8b4-44447c9ae38f.png)
+
+​    **（6） MCP server 工具**
+
+密探2.0 的MCPServer提供包含常规功能，项目相关，主体查询，测绘引擎，fuzz爆破，云安全，其他等39个MCP工具，可以为其他agent智能体提供交互，交互结果也会继续保存到项目的历史记录中，便于对各项工作过程数据进行统一管理。
+
+![1fec253e-7e1b-43d9-b390-697f2db2f1b3](/Volumes/soft/网络安全/github_mitan/Readme.assets/1fec253e-7e1b-43d9-b390-697f2db2f1b3.png)![2e3ac244-83cd-4b70-8e91-713e81207dff](/Volumes/soft/网络安全/github_mitan/Readme.assets/2e3ac244-83cd-4b70-8e91-713e81207dff.png)
+
+### 5.下载地址
+
+密探渗透测试工具v2.0基于Rust+Tauri开发，可支持Windows & Mac & Linux等系统，请选择对应的系统架构下载安装即可使用，后续会在“关于密探”界面提示自动升级后续。
+
+ 【**github下载】**https://github.com/kkbo8005/mitan/releases
+
+**【密探B站视频】** https://space.bilibili.com/552795114
+
+**【虎哥抖音号**】 6509 2382 655 （欢迎关注）
+
+### 6.VIP订阅
+
+​      **订阅原由**：密探2.0发布订阅服务以支持密探的长期更新，订阅的费用主要用于日常开发测试AI模块的TOKEN消耗，活动过程给各位师傅的纪念品（例如密探一周年的纪念品），还有就是回馈提供poc，指纹的师傅等等，更加给作者继续更新提供动力。
+
+​      工具以单用户VIP和团队VIP两种方式进行订阅，具体可见升级VIP的弹窗提示。
+​      个人VIP与团队VIP的不同点：个人VIP显示的是统一的“虎哥的安全圈定制版”，团队VIP就是显示“XXX团队定制版”。
+
+![365343a0-bb45-44bb-955a-debffc4f2f69](Readme.assets/365343a0-bb45-44bb-955a-debffc4f2f69.png)
+
+工具更新不易，各位师傅有钱捧个钱场，不愿出钱捧个人场，GITHUB点星，自媒体宣传都可以，有你的支持才能让“密探持续更新”。
+工具会以更新日志，感谢名单，VIP激活码等方式回馈为工具更新提供POC、指纹、API KEY等帮助的师傅。
+
+### 7.常见问题
+
+#### **(1) 在windows环境使用**（windows11以上）
+
+在windows环境下安装使用过程中如果遇到杀毒软件报毒，可以比对一下本地的安装包或程序与github上hash是否一致，如果确认是官方安装文件，即可设置软件白名单，放行运行。
+
+- **系统无webview2，安装webview失败**
+
+系统运行依赖webview2，如果没有webview2环境，安装程序会引导下载安装，若卡主不动，可以手动安装。
+
+webview2下载安装地址：
+
+https://developer.microsoft.com/zh-cn/microsoft-edge/webview2?form=MA13LH#download
+
+请根据自己的系统选择下对应的安装程序。
+
+![image-20260810131145948](Readme.assets/image-20260810131145948.png)
+
+-  软件最大化，最小化，关闭窗口
+
+  习惯了mac上的窗口最大化，最小化，关闭窗口的风格，就懒得做适配了，所有的版本的都统一到左上角了
+
+  ![ec9e108d-ff37-4563-9e8b-5ca38163cc70](/Volumes/soft/网络安全/github_mitan/Readme.assets/ec9e108d-ff37-4563-9e8b-5ca38163cc70.png)
 
   
 
-​      **github 下载地址：https://github.com/kkbo8005/mitan/releases**   
+#### **(2) 在MAC环境下使用**
 
-​     **不太会用的师傅可以先了解了解操作 【密探B站视频】** https://space.bilibili.com/552795114 
+macOS版本如出现“密探.app已损坏,无法打开”是因为程序没有苹果签名，解决方法控制台：
 
+允许安装第三方来源APP：
 
+```
+sudo spctl --master-disable
+```
 
-​       **本工具仅供安全测试人员运用于授权测试, 禁止用于未授权测试, 违者责任自负。作者不对您使用该工具所产生的任何后果负任何法律责任。**  
+删除程序隔离属性：
 
-​       **本工具在扫描模块使用多线程，在测试过程中根据目标的实际情况进行调整，切勿进行大线程低延时的大规模快速扫描，以免对目标服务造成不利影响。**
+```
+sudo xattr -r -d com.apple.quarantine /Applications/密探.app
+```
 
-​       **特别注意，各位师傅使用本工具请从github下载，从其他渠道下载工具，若被下毒与本作者无关，未经作者允许，严禁对本工具进行编译，二开 从事非法活动或商业行为**
+#### **(3) 在Linux环境下使用**
 
-### 3.更新日志
+第一步先授予权限
 
-| 2025.5.10 | 将扫描任务单行文本框改为多行文本框，方便师傅们复制粘贴，提高使用效率，工具箱增加jwt破解，重写社工字典生成工具算法，增加密码破解模块（mysql,sqlserver,oracle,mongodb,postgresql,redis,达梦,ssh,ftp,socks5）的弱口令检测,测绘数据IP联动密码破解，优化部分小bug. |
+```
+chmod +x mitan_linux_aarch64.AppImage
+```
+
+第二步：命令行的方式启动运行
+
+```
+./mitan_linux_aarch64.AppImage
+```
+
+第二步：图形界面设置权限（双击启动运行）
+
+```
+ mitan_linux_aarch64.AppImage文件 → 右键 → 属性 → 切换到「权限」→ 标签✅勾选：允许将文件作为程序执行关闭属性窗口，现在就可以双击图标启动
+```
+
+### 8.MCP服务配置
+
+#### （1）点击“启动MCP服务”开启MCP服务，并"复制配置"
+
+![c188562b-0b84-4324-9405-dada907e9e08](/Volumes/soft/网络安全/github_mitan/Readme.assets/c188562b-0b84-4324-9405-dada907e9e08.png)
+
+#### **（2）在AI客户端配置McSperver**
+
+- **在workbuddy上配置mcp**
+
+  在左侧菜单中点击“专家 技能 连接器”  -> “自定义连接器” ->"配置MCP"->粘贴在密探的mcp服务中复制的配置->“保存”后即可在对话中调用密探的mcp工具，例如“ 请用密探完成xxxx单位的主体查询”或“对xxx.com进行资产测绘”。
+
+![image-20260813214124618](/Volumes/soft/网络安全/github_mitan/Readme.assets/image-20260813214124618.png)
+
+- **在Trae上配置mcp**
+
+  在Trae的配置界面选择“MCP”->"+添加"->手动配置->粘贴mcpserver配置-> “保存”->完成后回到主界面的对话界面中就可以进行交互使用。
+
+![a193aa73-4000-4b17-bab8-090ea108c40f](/Volumes/soft/网络安全/github_mitan/Readme.assets/a193aa73-4000-4b17-bab8-090ea108c40f.png)
+
+![image-20260813214752105](/Volumes/soft/网络安全/github_mitan/Readme.assets/image-20260813214752105.png)
+
+![d5bd488f-bec6-4c1c-b1cf-53bab717267e](/Volumes/soft/网络安全/github_mitan/Readme.assets/d5bd488f-bec6-4c1c-b1cf-53bab717267e.png)
+
+### 9.更新日志
+
+| 2026.8    | 重构密探功能，优化用户体验，根据渗透测试需求，重新调整工具导航,感谢以下师傅提供数据及账号支持！@曾哥 @温酒看日出 @🌲 @99977 @至明善渊 @ZoomEye官方  @过去式 @梧祁@小浪 @REMADOME.md @Forget me @Sukalis  @重剑无锋   @大白哥  @湫东坡_up  @小机智 @醉殷 @TyC2l& |
 | --------- | ------------------------------------------------------------ |
+| 2025.5.10 | 将扫描任务单行文本框改为多行文本框，方便师傅们复制粘贴，提高使用效率，工具箱增加jwt破解，重写社工字典生成工具算法，增加密码破解模块（mysql,sqlserver,oracle,mongodb,postgresql,redis,达梦,ssh,ftp,socks5）的弱口令检测,测绘数据IP联动密码破解，优化部分小bug. |
 | 2025.3.23 | 优化了代理池功能、增加了Sessionkey三要素的加解密功能、优化了资产测绘模块的零零信安结果的右键功能，优化了资产测绘界面的常用语法显示，可以通过双击或则右键功能添加到搜索框中完成对应引擎的语法输入。 |
 | 2025.1.5  | 修复了信息查询的备案信息查询，子域名查询接口失效的问题，升级了ZoomEye最新v2版API接口，新增了零零信安的信息系统，域名，移动应用3个资产测绘查询接口，并完善响应的批量导出功能。优化导出界面默认全选所有查询结果。优化了一些使用过程中的其他bug. |
 | 2024.11.3 | 接口扫描从敏感信息里面拆分出来成为独立模块，敏感信息对抓取的数据进行分tab展示，并可以合并导出，增加工具箱大模块（swagger接口抓取功能，其他功能后续增加），通过swagger抓取接口后联动接口扫描模块进行未授权接口扫描。优化目录扫描的WAF识别功能，若遇到WAF相关关键字，自动放弃扫描，提高扫描效率，备案信息查询修改为站长工具，爱站的聚合查询。支持填写cookie进行查询，优化子域名cookie查询并支持分页抓取。基础信息增加飞鸟平台的分支机构，对外投资，APP，小程序的查询（需要填写cookie token) |
@@ -45,136 +236,17 @@
 | 2024.4.11 | 将敏感信息界面重构了，增加了接口抓取及未授权接口探测功能。（正则表达式感觉还不够完美，下一版再优化一下） |
 | 2024.4.7  | 优化文件扫描的多线程扫描功能，增加网站导航地址               |
 
-###  4.如何运行
+### 10.致谢：
 
- 在jdk8环境下（在jdk8以上的高版本请参考常见问题1的处理方案）运行以下语句运行:
+在密探2.0开发中参考学习了很多知名工具，在此统一表示感谢！！～
 
-```
-java -jar mitan-jar-with-dependencies.jar
-```
+无影（TscanPlus)：https://github.com/TideSec/TscanPlus
+Fine: https://github.com/fasnow/fine
+onyx: https://github.com/Mstce/Onyx
+MPScan: https://github.com/i-am-xjizhi/MPScan
+superSearchPlus-Tools：https://github.com/ToneSec/superSearchPlus-Tools
 
-​	若不想输入这么长太长语句，可以通过以下脚本的方式启动：
+### 11. 建议与反馈
 
-1.   Mac/Linux 环境下，可以通过sh文件启动，需要在控制台窗口先给予**start.sh**权限。
+​    如果在使用过程中遇到bug，非VIP会员请在Github的Issue中或添加作者微信（kkbo680） 提出，VIP订阅会员可以在VIP交流群，知识星球 ，或则私发作者微信，作者会逐一记录并更新。
 
-```
-chmod +x start.sh
-```
-
-赋予权限后，每次在控制台窗口执行如下命令打开工具
-
-```
-./start.sh
-```
-
-   2. windows系统直接双击"**start.bat**" 文件启动工具
-
-   运行成功显示以下界面：
-
-
-
-- **界面风格：**
-
-![image-20241103122359066](Readme.assets/image-20241103122359066.png)
-
-![image-20241103122425059](Readme.assets/image-20241103122425059.png)
-
-![image-20241103122446061](Readme.assets/image-20241103122446061.png)
-
--  **资产测绘**
-
-![image-20250510112113441](Readme.assets/image-20250510112113441.png)
-
-- **敏感信息（接口未授权）**
-
-![image-20250323224357396](Readme.assets/image-20250323224357396.png)
-
-- **备份扫描**
-
-![image-20250510111908557](Readme.assets/image-20250510111908557.png)
-
-- **目录扫描**
-
-![image-20250510110544207](Readme.assets/image-20250510110544207.png)
-
-- **批量权重查询**
-
-![image-20250104143232200](Readme.assets/image-20250104143232200.png)
-
-- 密码破解
-
- ![image-20250510110030061](Readme.assets/image-20250510110030061.png)
-
-- **工具箱**
-
-![image-20250510110005640](Readme.assets/image-20250510110005640.png)
-
-- **渗透备忘**
-
-![image-20250510111958962](Readme.assets/image-20250510111958962.png)
-
-**代理池**
-
-![image-20250222215943011](Readme.assets/image-20250222215943011.png)
-
-**关于与更新** 
-
-![image-20250510110146915](Readme.assets/image-20250510110146915.png)
-
-### 5.常见问题
-
-#### （1）运行时错误提示: 缺少 JavaFX 运行时组件的解决方法。
-
- **JavaFX 从 Java 11 开始从 JDK中移除，JDK11以上的需要单独下载和配置javaFx。**
-
-##### 1. 下载 JavaFX SDK
-
-首先，从 [Gluon](https://gluonhq.com/products/javafx/) 网站 下载对应操作系统的 JavaFX SDK。
-
-##### 2. 解压到目录
-
-将下载的 JavaFX SDK 解压到一个目录中（例如 `C:\javafx-sdk-21`）。
-
-##### 3. 运行 JAR 文件时指定 JavaFX 模块路径
-
-在运行你的 JAR 文件时，需要指定 JavaFX 模块的路径。假设你的 JavaFX SDK 解压在 `C:\javafx-sdk-21`，你可以使用以下命令来运行你的 JAR 文件：
-
-```
-java --module-path "C:\javafx-sdk-21\lib" --add-modules javafx.controls,javafx.fxml -jar mitan-jar-with-dependencies.jar
-```
-
-在这个命令中：
-
-- `--module-path "C:\javafx-sdk-21\lib"` 指定了 JavaFX 模块的路径。
-
-- `--add-modules javafx.controls,javafx.fxml` 添加了所需的 JavaFX 模块，根据你的应用程序可能需要添加其他模块。
-
-  
-
-  **感谢 p1at0x ，s0nd9r师傅在Issues中提出的解决方案，可自行根据操作系统修改start.bat或start.sh脚本文件，解决快速启动。**
-
-  
-
-#### （2） 若遇到界面乱码问题，建议指定编码方式进行启动。
-
-```
-java "-Dfile.encoding=UTF-8" -jar mitan-jar-with-dependencies.jar
-```
-
- **可自行根据操作系统修改start.bat或start.sh脚本文件，解决快速启动。**
-
-
-
-#### （3） 关于ZoomEye查询提示“request invalid, validate usage and try again” 的解决方法
-
-​     出现上述提示，是因为ZoomEye 注册用户的API查询权益分不够（个人版会员以上不会出现此问题）， 具体会员权益点击https://www.zoomeye.org/pricing 查看即可，想获取权益积分，可以关注ZoomEye公众号或加入官方社群。
-
-
-
-###  6.互相交流
-
-​      密探版本在不断更新，希望大家多多帮助完善提升。 密探渗透工具在开发过程中得到“长风安全”，“湘安无事“两个团队的师傅对工具的完善提供大量帮助，同时感谢**ZoomEye官方**在测试过程中提供**开发者权益支持**，有更好的想法也可以➕V：kkbo680  进入密探工具交流群（**密探工具交流群已超200人，加群二维码已扫不了，+V时请备注“加群”**），提供宝贵意见。 
-
-![image-20240406180609618](Readme.assets/image-20240406180609618.png)
-
-![image-20250104001005725](Readme.assets/image-20250104001005725.png)
