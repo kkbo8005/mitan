@@ -124,7 +124,7 @@
 
 密探渗透测试工具v2.0基于Rust+Tauri开发，可支持Windows & Mac & Linux等系统，请选择对应的系统架构下载安装即可使用，后续会在“关于密探”界面提示自动升级后续。
 
- **【github下载】**https://github.com/kkbo8005/mitan/releases
+ **【github下载】** https://github.com/kkbo8005/mitan/releases
 
 **【密探B站视频】** https://space.bilibili.com/552795114
 
