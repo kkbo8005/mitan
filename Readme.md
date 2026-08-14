@@ -72,37 +72,37 @@
 
 密探2.0 对信息收集及资产探测的过程数据进行项目级管理，好处就是可以严格区分不同项目之间的数据记录，不会产生数据混乱，第二就是便于对项目的历史记录进行回溯，便于后期续用及数据整理，随时可以从历史记录中调取。
 
-![cc50e3aa-d7ed-425f-886c-fc6b7666a15d](/Volumes/soft/网络安全/github_mitan/Readme.assets/cc50e3aa-d7ed-425f-886c-fc6b7666a15d.png)
+![cc50e3aa-d7ed-425f-886c-fc6b7666a15d](Readme.assets/cc50e3aa-d7ed-425f-886c-fc6b7666a15d.png)
 
    **（2）聚合测绘**
 
 密探内置测绘语法转换算法，能够实现常见的搜素语法自动转换适配多个测绘引擎，并实现多个测绘引擎的测绘数据查询，避免多个测绘引擎的语法差异导致的人为转换的错误，极大的提高测绘效率。
 
-![0c709faa-5f6b-4675-a39a-a9682f48d099](/Volumes/soft/网络安全/github_mitan/Readme.assets/0c709faa-5f6b-4675-a39a-a9682f48d099.png)
+![0c709faa-5f6b-4675-a39a-a9682f48d099](Readme.assets/0c709faa-5f6b-4675-a39a-a9682f48d099.png)
 
 ​    **（3） 断点续扫**
 
 密探2.0实现指纹识别，jsfinder,目录扫描，子域名，端口扫描，弱口令，poc等耗时比较长的扫描功能增加了断点续扫的功能，可以随时从上次结束的任务处继续完成后续扫描，解决每次扫描都要从新开扫的麻烦。
 
-![eb23d945-c576-4194-962c-7767ade4ab62](/Volumes/soft/网络安全/github_mitan/Readme.assets/eb23d945-c576-4194-962c-7767ade4ab62.png)
+![eb23d945-c576-4194-962c-7767ade4ab62](Readme.assets/eb23d945-c576-4194-962c-7767ade4ab62.png)
 
 ​    **（4） heapdump分析**
 针对java 的heapdump转储文件进行解析，分析数据库连接信息，sql，IP，jwt token等敏感信息
 
-![944221dc-5d41-4929-9392-76693b7357d9](/Volumes/soft/网络安全/github_mitan/Readme.assets/944221dc-5d41-4929-9392-76693b7357d9.png)
+![944221dc-5d41-4929-9392-76693b7357d9](Readme.assets/944221dc-5d41-4929-9392-76693b7357d9.png)
 
 ​    **（5） 小程序反编译-》API扫描一把梭**
 ​    支持多版本的微信小程序解包，并对代码里面的api接口，URL，aksk等敏感信息进行提取。尤其API接口可以通过扫描按钮一键发起未授权检测，可以根据数据包状态及大小来判断接口是否存在未授权风险。
 
-![7116c3d0-8c17-4d7c-986b-1f74d37ecd40](/Volumes/soft/网络安全/github_mitan/Readme.assets/7116c3d0-8c17-4d7c-986b-1f74d37ecd40.png)
+![7116c3d0-8c17-4d7c-986b-1f74d37ecd40](Readme.assets/7116c3d0-8c17-4d7c-986b-1f74d37ecd40.png)
 
-![df66b621-5b27-4513-b8b4-44447c9ae38f](/Volumes/soft/网络安全/github_mitan/Readme.assets/df66b621-5b27-4513-b8b4-44447c9ae38f.png)
+![df66b621-5b27-4513-b8b4-44447c9ae38f](Readme.assets/df66b621-5b27-4513-b8b4-44447c9ae38f.png)
 
 ​    **（6） MCP server 工具**
 
 密探2.0 的MCPServer提供包含常规功能，项目相关，主体查询，测绘引擎，fuzz爆破，云安全，其他等39个MCP工具，可以为其他agent智能体提供交互，交互结果也会继续保存到项目的历史记录中，便于对各项工作过程数据进行统一管理。
 
-![1fec253e-7e1b-43d9-b390-697f2db2f1b3](/Volumes/soft/网络安全/github_mitan/Readme.assets/1fec253e-7e1b-43d9-b390-697f2db2f1b3.png)![2e3ac244-83cd-4b70-8e91-713e81207dff](/Volumes/soft/网络安全/github_mitan/Readme.assets/2e3ac244-83cd-4b70-8e91-713e81207dff.png)
+![1fec253e-7e1b-43d9-b390-697f2db2f1b3](Readme.assets/1fec253e-7e1b-43d9-b390-697f2db2f1b3.png)![2e3ac244-83cd-4b70-8e91-713e81207dff](Readme.assets/2e3ac244-83cd-4b70-8e91-713e81207dff.png)
 
 ### 5.下载地址
 
@@ -148,7 +148,7 @@ https://developer.microsoft.com/zh-cn/microsoft-edge/webview2?form=MA13LH#downlo
 
   习惯了mac上的窗口最大化，最小化，关闭窗口的风格，就懒得做适配了，所有的版本的都统一到左上角了
 
-  ![ec9e108d-ff37-4563-9e8b-5ca38163cc70](/Volumes/soft/网络安全/github_mitan/Readme.assets/ec9e108d-ff37-4563-9e8b-5ca38163cc70.png)
+  ![ec9e108d-ff37-4563-9e8b-5ca38163cc70](Readme.assets/ec9e108d-ff37-4563-9e8b-5ca38163cc70.png)
 
   
 
@@ -192,7 +192,7 @@ chmod +x mitan_linux_aarch64.AppImage
 
 #### （1）点击“启动MCP服务”开启MCP服务，并"复制配置"
 
-![c188562b-0b84-4324-9405-dada907e9e08](/Volumes/soft/网络安全/github_mitan/Readme.assets/c188562b-0b84-4324-9405-dada907e9e08.png)
+![c188562b-0b84-4324-9405-dada907e9e08](Readme.assets/c188562b-0b84-4324-9405-dada907e9e08.png)
 
 #### **（2）在AI客户端配置McSperver**
 
@@ -200,17 +200,17 @@ chmod +x mitan_linux_aarch64.AppImage
 
   在左侧菜单中点击“专家 技能 连接器”  -> “自定义连接器” ->"配置MCP"->粘贴在密探的mcp服务中复制的配置->“保存”后即可在对话中调用密探的mcp工具，例如“ 请用密探完成xxxx单位的主体查询”或“对xxx.com进行资产测绘”。
 
-![image-20260813214124618](/Volumes/soft/网络安全/github_mitan/Readme.assets/image-20260813214124618.png)
+![image-20260813214124618](Readme.assets/image-20260813214124618.png)
 
 - **在Trae上配置mcp**
 
   在Trae的配置界面选择“MCP”->"+添加"->手动配置->粘贴mcpserver配置-> “保存”->完成后回到主界面的对话界面中就可以进行交互使用。
 
-![a193aa73-4000-4b17-bab8-090ea108c40f](/Volumes/soft/网络安全/github_mitan/Readme.assets/a193aa73-4000-4b17-bab8-090ea108c40f.png)
+![a193aa73-4000-4b17-bab8-090ea108c40f](Readme.assets/a193aa73-4000-4b17-bab8-090ea108c40f.png)
 
-![image-20260813214752105](/Volumes/soft/网络安全/github_mitan/Readme.assets/image-20260813214752105.png)
+![image-20260813214752105](/Readme.assets/image-20260813214752105.png)
 
-![d5bd488f-bec6-4c1c-b1cf-53bab717267e](/Volumes/soft/网络安全/github_mitan/Readme.assets/d5bd488f-bec6-4c1c-b1cf-53bab717267e.png)
+![d5bd488f-bec6-4c1c-b1cf-53bab717267e](Readme.assets/d5bd488f-bec6-4c1c-b1cf-53bab717267e.png)
 
 ### 9.更新日志
 
