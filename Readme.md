@@ -300,6 +300,6 @@ superSearchPlus-Tools：https://github.com/ToneSec/superSearchPlus-Tools
 
 ### 11. 建议与反馈
 
-​    如果在使用过程中遇到bug，非VIP会员请在Github的Issue（https://github.com/kkbo8005/mitan/issues）中提出，VIP订阅会员添加作者微信（kkbo680） 提出，也可以在VIP交流群，知识星球 ，或则私发作者微信，作者会逐一记录并更新。
+​    如果在使用过程中遇到bug，非VIP会员请在Github的Issue（https://github.com/kkbo8005/mitan/issues） 中提出，VIP订阅会员添加作者微信（kkbo680） 提出，也可以在VIP交流群，知识星球 ，或则私发作者微信，作者会逐一记录并更新。
 
 ![image-20260814115222920](Readme.assets/image-20260814115222920.png)
