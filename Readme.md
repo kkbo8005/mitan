@@ -28,7 +28,7 @@
 
 **【项目管理】**
 
-![bd65b7fa-bb97-49df-8456-be6705162cee](/Volumes/soft/网络安全/github_mitan/Readme.assets/bd65b7fa-bb97-49df-8456-be6705162cee.png)
+![bd65b7fa-bb97-49df-8456-be6705162cee](Readme.assets/bd65b7fa-bb97-49df-8456-be6705162cee.png)
 
 【**关于密探**】
 
