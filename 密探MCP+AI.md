@@ -26,6 +26,8 @@ AI 核心价值：**情报梳理、筛选有效资产、生成探测策略、漏
 
 ![8211da89-3713-4476-bf7a-2031a66eebfa](密探MCP+AI.assets/8211da89-3713-4476-bf7a-2031a66eebfa.png)
 
+![image-20260915120203267](密探MCP+AI.assets/image-20260915120203267.png)
+
 （3） 打开Workbuddy选择连接器
 
 ![6698c18e-6c48-49cb-8ae3-5b59d6e65ed2](密探MCP+AI.assets/6698c18e-6c48-49cb-8ae3-5b59d6e65ed2.png)
