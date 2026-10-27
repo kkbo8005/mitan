@@ -122,7 +122,7 @@
 
 密探2.0 的MCPServer提供包含常规功能，项目相关，主体查询，测绘引擎，fuzz爆破，云安全，其他等39个MCP工具，可以为其他agent智能体提供交互，交互结果也会继续保存到项目的历史记录中，便于对各项工作过程数据进行统一管理。
 
-![image-20260915120402928](/Volumes/soft/网络安全/github_mitan/Readme.assets/image-20260915120402928.png)
+![image-20260915120402928](Readme.assets/image-20260915120402928.png)
 
 ![2e3ac244-83cd-4b70-8e91-713e81207dff](Readme.assets/2e3ac244-83cd-4b70-8e91-713e81207dff.png)
 
